@@ -1,1 +1,1 @@
-docker build -t blittle/gst-static .
+docker build -t blittle/gst-static . && docker push blittle/gst-static
