@@ -3,6 +3,10 @@ body {
 	background: #eeeeee;
 }
 
+.\+small {
+	display: none;
+}
+
 .hero {
 	height: 738px;
 	width: 100%;
@@ -109,6 +113,49 @@ a:hover {
 	color: #bbb;
 }
 
+.faq {
+	width: 760px;
+	margin: 0 auto;
+	font-weight: normal;
+	padding: 30px 0;
+}
+
+.faq a {
+	color: #3e606f;
+}
+
+.faq__title {
+	font-size: 24px;
+	margin-bottom: 8px;
+}
+
+.faq__question {
+	display: inline-block;
+	width: 280px;
+	vertical-align: top;
+	margin-right: 14px;
+	margin-top: 24px;
+}
+
+.faq__question:last-child {
+	margin-right: 0;
+}
+
+.faq__question-title {
+	margin-bottom: 8px;
+	font-size: 18px;
+}
+
+.faq__question-answer {
+	font-size: 14px;
+	font-weight: normal;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.chrome-link {
+	height: 96px;
+}
+
 @media (max-width: 748px) {
 	.feature__image {
 		width: 100%;
@@ -129,10 +176,27 @@ a:hover {
 	}
 
 	.chrome-link {
-		width: 80%;
+		width: 76px;
 	}
 
 	.feature__title {
 		font-size: 20px;
+	}
+
+	.faq {
+		width: 280px;
+	}
+
+	.\+large {
+		display: none;
+	}
+	.\+small {
+		display: block;
+	}
+}
+
+@media (min-width: 1928px) {
+	.hero {
+		background-size: 100%;
 	}
 }
