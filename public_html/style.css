@@ -51,6 +51,9 @@ body {
 	margin-top: 100px;
 }
 
+.feature__image {
+}
+
 .feature__title {
 	font-size: 16px;
 	color: #193441;
@@ -68,7 +71,7 @@ body {
 }
 
 .coming-soon__features {
-	width: 560px;
+	width: 360px;
 	margin: 0 auto;
 }
 
@@ -157,9 +160,6 @@ a:hover {
 }
 
 @media (max-width: 748px) {
-	.feature__image {
-		width: 100%;
-	}
 	.hero__headline {
 		font-size: 24px;
 	}
@@ -192,6 +192,12 @@ a:hover {
 	}
 	.\+small {
 		display: block;
+	}
+}
+
+@media (max-width: 1030px) {
+	.feature__image {
+		width: 100%;
 	}
 }
 
